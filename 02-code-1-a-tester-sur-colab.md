@@ -36,7 +36,8 @@ print("Aperçu des données :")
 print(dataset.head())
 
 
-# Testez chaque fois avec une dataset
+# Testez chaque fois avec une dataset (dataset1, dataset2, dataset3, ..., dataset9) et un target (c'est à vous d'identifier la colonne target = '?', remplacez le point d'exclamation !
+
 # Configuration de l'environnement PyCaret
 clf1 = setup(dataset1, target='deposit', train_size=0.6, silent=True, session_id=123) #  Attention, target='deposit' est applicable sur url1 (bank) ==> Observez les colonnes
 
