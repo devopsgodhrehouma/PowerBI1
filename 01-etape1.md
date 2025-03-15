@@ -60,3 +60,44 @@ pip install pycaret==2.0
 2. Sélectionnez *Scripts Python*
 3. Choisissez le chemin Python de votre environnement `myenv`  
    (par exemple, `C:\Users\VotreNom\anaconda3\envs\myenv\python.exe`)
+
+
+
+# Annexe 1 - Vérifier la version via Python
+
+
+Pour vérifier la version de **PyCaret** une fois installé, vous pouvez utiliser l'une des commandes suivantes :
+
+### 1️⃣ Vérifier la version via Python
+Ouvrez un terminal ou un Jupyter Notebook et tapez :
+
+```python
+import pycaret
+print(pycaret.__version__)
+```
+
+### 2️⃣ Vérifier la version via `pip`
+Dans le terminal (ou l'invite de commande), tapez :
+
+```bash
+pip show pycaret
+```
+
+Cela affichera des informations sur le package, y compris sa version.
+
+### 3️⃣ Vérifier la version via `conda`
+Si vous avez installé **PyCaret** via `conda`, utilisez :
+
+```bash
+conda list pycaret
+```
+
+Cela affichera la version installée ainsi que d'autres détails.
+
+---
+
+**💡 Conseil :** Assurez-vous d'avoir activé l'environnement où **PyCaret** est installé avant d'exécuter ces commandes :
+
+```bash
+conda activate myenv
+```
