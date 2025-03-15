@@ -23,7 +23,7 @@ pip install pycaret
 ```
 conda create --name myenv python=3.12
 conda activate myenv 
-pip install pycaret==3.x
+pip install pycaret==3.3.2 (pip install pycaret==3.x)
 ```
 
 
