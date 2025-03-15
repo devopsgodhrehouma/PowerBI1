@@ -9,15 +9,36 @@ import pandas as pd
 from pycaret.classification import *
 
 # Chargement du dataset bancaire
-url = 'https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/bank.csv'
-dataset = pd.read_csv(url) 
+url1 = 'https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/bank.csv'
+url2 = 'https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/diabetes.csv'
+url3 = 'https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/employee.csv'
+url4 = 'https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/boston.csv'
+url5 = 'https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/bike.csv'
+url6 = 'https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/france.csv'
+url7 = 'https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/elections.csv'
+url8 = 'https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/jewellery.csv'
+url9 = 'https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/anomaly.csv'
+
+dataset1 = pd.read_csv(url1) 
+dataset2 = pd.read_csv(url2)
+dataset3 = pd.read_csv(url3)
+dataset4 = pd.read_csv(url4)
+dataset5 = pd.read_csv(url5)
+dataset6 = pd.read_csv(url6) 
+dataset7 = pd.read_csv(url7)
+dataset8 = pd.read_csv(url8)
+dataset9 = pd.read_csv(url9) 
+
+
 
 # Affichage des premières lignes du dataset
 print("Aperçu des données :")
 print(dataset.head())
 
+
+# Testez chaque fois avec une dataset
 # Configuration de l'environnement PyCaret
-clf1 = setup(dataset, target='deposit', train_size=0.6, silent=True, session_id=123)
+clf1 = setup(dataset1, target='deposit', train_size=0.6, silent=True, session_id=123) #  Attention, target='deposit' est applicable sur url1 (bank) ==> Observez les colonnes
 
 # Entraînement d'un modèle XGBoost
 xgboost = create_model('xgboost', verbose=False)
