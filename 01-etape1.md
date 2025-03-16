@@ -10,8 +10,8 @@
 ---
 
 - Avant d'exécuter ces commandes, il faut ouvrir Anaconda et choisir l'onglet **Environnements**.  
-- Créez un nouvel environnement en sélectionnant la version **3.9 de Python**.  
-- Cliquez sur la **flèche verte** à l'extrémité droite de l'onglet **Environnements**.  
+- Créez un nouvel environnement en sélectionnant la version **3.9 de Python** ou n'importe quelle version, sinon sélectionnez un environnement existant.  
+- Cliquez sur la **flèche verte** à l'extrémité droite de l'onglet **Environnements** et lancez le terminal.  
 - **Écrivez** la commande `deactivate`.
 
 ## Option 1  - pycaret==2.0 est compatible avec python=3.9
