@@ -52,10 +52,27 @@ deactivate
 
 
 
+---
+# Étape 4 - Dans Power BI 
+---
+
+Références AutoML:
+
+- https://drive.google.com/drive/folders/1zzZNeNzjWeLx8j_erX6yoPDcoIUuQZiR?usp=sharing
+- https://www.youtube.com/watch?v=kohLQfsVE5Y&ab_channel=TheBIHub
 
 
+1) Rendez-vous ua services powerBI en ligne et non pas l'application Desktop de POwerBI==> https://app.powerbi.com/home?experience=power-bi
+2) Il faut cliquer sur votre profil.
+3) Démarrez l'essai gratuit.
+4) Cliquez sur L'onglet à droite Espaces de travail
+5) Créez un nouvel espace de travail (+ Nouvel espace de travail)
+6) Sous l'espace de travail, cliquez sur Nouvel élément et cherchez Gen1 dans la barre de recherche.
+7) Choisir créez un dataflow Gen1 et non pas Gen2 même si on vous propose.
 
+![image](https://github.com/user-attachments/assets/3cb2affe-ad2a-4237-9778-a85d7a7d0b0f)
 
+![image](https://github.com/user-attachments/assets/3a45b788-5972-42a2-9b2b-ec1560fc6677)
 
 ---
 # Annexe 1 - Vérifier la version via Python
